@@ -13,14 +13,14 @@ public class SwordAttack : MonoBehaviour
     }
 
     public void AttackRight() {
-        print("attack right");
+        //print("attack right");
         swordCollider.enabled = true;
         transform.localPosition = rightAttackOffset;
     }
     
 
     public void AttackLeft() {
-        print("attack left");
+        //print("attack left");
         swordCollider.enabled = true;
         transform.localPosition = new Vector3(rightAttackOffset.x * -1, rightAttackOffset.y);
     }
