@@ -10,6 +10,10 @@ public class PlayerHealth : MonoBehaviour
     public int maxRealth = 100;
     public float healthAmount = 100f;
 
+    private bool isDead;
+
+    public GameManagerScript gameManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,10 +23,13 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     public void TakeDamage(int amount, float dmg) {
         realth -= amount;
+        Debug.Log(realth);
         healthAmount -= dmg;
         healthBar.fillAmount = healthAmount / 100f;
-        if (realth <= 0) {
-            Destroy(gameObject);
+        if (realth <= 0 && !isDead) {
+            isDead = true;
+            //gameObject.SetActive(false);
+            gameManager.gameOver();
         }
     }
 }

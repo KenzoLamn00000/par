@@ -50,8 +50,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 5603626254334394510, guid: c490d265eb0890a4fb1a28a967ed5830, type: 3}
-  damage: 1
-  dmg: 1
+  damage: 100
+  dmg: 100
 --- !u!212 &5167307920889303954
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -117,8 +117,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0030994415, y: -0.16461945}
-  m_Size: {x: 0.8063874, y: 0.8063874}
+  m_Offset: {x: -0.04006964, y: -0.2508834}
+  m_Size: {x: 0.6338595, y: 0.6338595}
   m_Direction: 0
 --- !u!114 &8770694099364410947
 MonoBehaviour:

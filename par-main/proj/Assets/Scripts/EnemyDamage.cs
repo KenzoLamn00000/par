@@ -5,8 +5,8 @@ using UnityEngine;
 public class EnemyDamage : MonoBehaviour
 {
     public PlayerHealth playerHealth;
-    public int damage = 1;
-    public float dmg = 1;
+    public int damage;
+    public float dmg;
     // Start is called before the first frame update
     void Start()
     {
