@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8770694099364410947}
   - component: {fileID: 3032911746714160088}
   - component: {fileID: 1562799835905738786}
+  - component: {fileID: -2449809283482880418}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Enemy
@@ -114,7 +115,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.04006964, y: -0.2508834}
@@ -167,3 +168,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 4904088978884453739, guid: c490d265eb0890a4fb1a28a967ed5830, type: 3}
   speed: 1.6
+--- !u!50 &-2449809283482880418
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3752507561714143377}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

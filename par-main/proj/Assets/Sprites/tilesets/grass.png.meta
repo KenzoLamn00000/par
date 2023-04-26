@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 32
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -5532,8 +5532,8 @@ TextureImporter:
       grass_38: -80981348
       grass_21: -677106478
       grass_126: 850815149
-      grass_90: 1931041797
       grass_61: -22209235
+      grass_90: 1931041797
       grass_35: -292505761
       grass_116: -1621699887
       grass_51: -1074853968
