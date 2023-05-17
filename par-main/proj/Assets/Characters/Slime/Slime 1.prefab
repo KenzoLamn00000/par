@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: -2449809283482880418}
   - component: {fileID: -5399357067644140008}
   m_Layer: 0
-  m_Name: Slime
+  m_Name: Slime 1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,7 +95,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1407306812, guid: 941eeb535a846914d9af6166228d4e81, type: 3}
+  m_Sprite: {fileID: 1276336558, guid: 1c0750f93b43d134d8489773e3e05d4d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -145,7 +145,7 @@ Animator:
   m_GameObject: {fileID: 3752507561714143377}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fee2f272213c6d5419efd2baf36208bb, type: 2}
+  m_Controller: {fileID: 9100000, guid: 52210e26d1e05d541879f679896a1626, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 4904088978884453739, guid: c490d265eb0890a4fb1a28a967ed5830, type: 3}
-  speed: 1.6
+  speed: 5
   slime: {fileID: 0}
 --- !u!50 &-2449809283482880418
 Rigidbody2D:
